@@ -2,10 +2,10 @@ import {
   BaseFilter,
   DduItem,
   SourceOptions,
-} from "https://deno.land/x/ddu_vim@v2.0.0/types.ts";
-import { Denops, fn } from "https://deno.land/x/ddu_vim@v2.0.0/deps.ts";
-import { ActionData } from "https://deno.land/x/ddu_kind_file@v0.3.2/file.ts";
-import { relative } from "https://deno.land/std@0.166.0/path/mod.ts";
+} from "https://deno.land/x/ddu_vim@v3.4.2/types.ts";
+import { Denops, fn } from "https://deno.land/x/ddu_vim@v3.4.2/deps.ts";
+import { ActionData } from "https://deno.land/x/ddu_kind_file@v0.5.3/file.ts";
+import { relative } from "https://deno.land/std@0.194.0/path/mod.ts";
 
 type Params = Record<never, never>;
 
