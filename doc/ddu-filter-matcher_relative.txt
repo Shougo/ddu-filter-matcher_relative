@@ -3,7 +3,7 @@
 Author: Shougo <Shougo.Matsu at gmail.com>
 License: MIT license
 
-CONTENTS				*ddu-filter-matcher_relative*
+CONTENTS                                         *ddu-filter-matcher_relative*
 
 Introduction		|ddu-filter-matcher_relative-introduction|
 Install			|ddu-filter-matcher_relative-install|
@@ -12,13 +12,14 @@ Params			|ddu-filter-matcher_relative-params|
 
 
 ==============================================================================
-INTRODUCTION			*ddu-filter-matcher_relative-introduction*
+INTRODUCTION                        *ddu-filter-matcher_relative-introduction*
 
-This matcher filters relative files items.
+This matcher filters |ddu-source-option-path| or |getcwd()| relative files
+items.
 
 
 ==============================================================================
-INSTALL				*ddu-filter-matcher_relative-install*
+INSTALL                                  *ddu-filter-matcher_relative-install*
 
 Please install both "ddu.vim" and "denops.vim".
 
@@ -27,7 +28,7 @@ https://github.com/vim-denops/denops.vim
 
 
 ==============================================================================
-EXAMPLES			*ddu-filter-matcher_relative-examples*
+EXAMPLES                                *ddu-filter-matcher_relative-examples*
 >
 	call ddu#custom#patch_global(#{
 	    \   sourceOptions: #{
@@ -39,7 +40,7 @@ EXAMPLES			*ddu-filter-matcher_relative-examples*
 <
 
 ==============================================================================
-PARAMS				*ddu-filter-matcher_relative-params*
+PARAMS                                    *ddu-filter-matcher_relative-params*
 
 
 ==============================================================================
